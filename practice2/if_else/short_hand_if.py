@@ -12,7 +12,7 @@ print(2026) if num3 > num4 else print(2025)
 #3
 n1 = 24
 n2 = 24
-print("n1 > n2") if n1 > n2 else print("n1 > n2") if n1 == n2 else print("n1 == n2")
+print("n1 > n2") if n1 > n2 else print("n1 < n2") if n1 == n2 else print("n1 == n2")
 
 #4
 num1 = int(input("number1:"))
