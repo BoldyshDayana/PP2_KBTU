@@ -12,7 +12,7 @@ def show_all_contacts():
     try:
         cur = conn.cursor()
         cur.execute("SELECT id, name, phone FROM contacts ORDER BY name")
-        contacts = cur.fetchall()
+        contacts = cur.fetchall() #get results
         cur.close()
         
         if not contacts:
