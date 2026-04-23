@@ -25,7 +25,7 @@ while running:
         
         # Move ball with arrow keys (20 pixels per press)
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_UP:
+            if event.key == pygame.K_w:
                 ball.move(0, -ball.step)
             if event.key == pygame.K_DOWN:
                 ball.move(0, ball.step)
