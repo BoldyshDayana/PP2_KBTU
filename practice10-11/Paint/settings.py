@@ -6,9 +6,9 @@ SCREEN_HEIGHT = 650
 FPS = 60
 
 # colours
-WHITE      = (255, 255, 255)
-BLACK      = (0,   0,   0)
-GREY       = (200, 200, 200)
+WHITE = (255, 255, 255)
+BLACK = (0,   0,   0)
+GREY = (200, 200, 200)
 DARK_GREY  = (100, 100, 100)
 LIGHT_GREY = (230, 230, 230)
 

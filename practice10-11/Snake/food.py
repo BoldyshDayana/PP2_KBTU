@@ -13,7 +13,6 @@ from settings import (
 class FoodItem:
     """
     A single food item sitting at one grid cell.
-
     Attributes:
         col, row  — grid position
         weight    — point value (1, 2, or 3); determines colour
@@ -38,9 +37,9 @@ class FoodItem:
 
     def draw(self, surface, grid):
         """Draw the food as a coloured circle with a shrinking timer ring."""
-        rect  = grid.cell_rect(self.col, self.row)
-        cx    = rect.centerx
-        cy    = rect.centery
+        rect = grid.cell_rect(self.col, self.row)
+        cx = rect.centerx
+        cy = rect.centery
         radius = CELL_SIZE // 2 - 3
 
         # Main food circle

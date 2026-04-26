@@ -14,8 +14,8 @@ def canvas_pos(mouse_xy):
 def draw_shape(surface, tool, color, p1, p2, width=2): 
     x1, y1 = p1
     x2, y2 = p2
-    dx = x2 - x1
-    dy = y2 - y1
+    dx = x2 - x1 # width
+    dy = y2 - y1 # height
  
     if tool == "Rectangle":
         # Axis-aligned rectangle from p1 to p2
@@ -50,7 +50,7 @@ def draw_shape(surface, tool, color, p1, p2, width=2):
     elif tool == "Eq Triangle":
         # Equilateral triangle: base runs from p1 to p2 along y2,
         # apex is centered above the base at height = base * sqrt(3) / 2
-        base   = abs(dx)
+        base = abs(dx)
         height = int(base * math.sqrt(3) / 2)
         apex_y = y2 - height if dy <= 0 else y2 + height
         pts = [

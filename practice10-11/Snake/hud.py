@@ -47,10 +47,10 @@ def draw_hud(surface, score, level, foods_eaten):
     else:
         progress = 1.0   # max level reached
 
-    bar_w  = 120
-    bar_h  = 10
-    bar_x  = SCREEN_WIDTH - bar_w - 12
-    bar_y  = (HUD_HEIGHT - bar_h) // 2 + 8
+    bar_w = 120
+    bar_h = 10
+    bar_x = SCREEN_WIDTH - bar_w - 12
+    bar_y = (HUD_HEIGHT - bar_h) // 2 + 8
 
     # Background track
     pygame.draw.rect(surface, (60, 60, 60), (bar_x, bar_y, bar_w, bar_h), border_radius=5)
@@ -64,3 +64,4 @@ def draw_hud(surface, score, level, foods_eaten):
     # "Next level" label above the bar
     lbl = _font_small.render("Next lvl", True, (180, 180, 180))
     surface.blit(lbl, (bar_x + bar_w // 2 - lbl.get_width() // 2, bar_y - 16))
+

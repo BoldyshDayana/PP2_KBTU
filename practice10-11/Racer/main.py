@@ -108,8 +108,8 @@ def main():
  
     # Game-over screen 
     screen.fill(BLACK)
-    draw_text(screen, "GAME OVER",            font_large, RED,    SCREEN_WIDTH // 2, 200, align="center")
-    draw_text(screen, f"Score: {score}",      font_small, WHITE,  SCREEN_WIDTH // 2, 260, align="center")
+    draw_text(screen, "GAME OVER", font_large, RED,    SCREEN_WIDTH // 2, 200, align="center")
+    draw_text(screen, f"Score: {score}", font_small, WHITE,  SCREEN_WIDTH // 2, 260, align="center")
     draw_text(screen, f"Coins: {coin_count}", font_small, YELLOW, SCREEN_WIDTH // 2, 290, align="center")
     draw_text(screen, "Press any key to exit",font_small, WHITE,  SCREEN_WIDTH // 2, 340, align="center")
     pygame.display.flip()

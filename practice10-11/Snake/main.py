@@ -155,7 +155,7 @@ def run_game():
             weight = food_manager.eat_at(col, row)
             if weight > 0:
                 snake.grow()             # grow by one cell
-                score       += weight    # add food weight to score
+                score += weight    # add food weight to score
                 foods_eaten += 1         # track for level progression
 
                 # Check for level-up

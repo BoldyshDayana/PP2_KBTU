@@ -4,8 +4,8 @@ import pygame
 import sys
  
 from settings import SCREEN_WIDTH, SCREEN_HEIGHT, FPS, SIDEBAR_WIDTH, WHITE, BLACK
-from shapes   import draw_shape, canvas_pos
-from sidebar  import draw_sidebar, get_clicked_tool, get_clicked_color
+from shapes import draw_shape, canvas_pos
+from sidebar import draw_sidebar, get_clicked_tool, get_clicked_color
  
  
 def main():
