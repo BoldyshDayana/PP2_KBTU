@@ -1,0 +1,56 @@
+[
+  {
+    "name": "dakonya",
+    "score": 192,
+    "distance": 112,
+    "coins": 3
+  },
+  {
+    "name": "dakonya",
+    "score": 77,
+    "distance": 67,
+    "coins": 1
+  },
+  {
+    "username": "dayana",
+    "score": 40,
+    "level_reached": 1,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "dayana",
+    "score": 30,
+    "level_reached": 1,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "dayana",
+    "score": 0,
+    "level_reached": 1,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "dayana",
+    "score": 80,
+    "level_reached": 2,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "dayana",
+    "score": 165,
+    "level_reached": 3,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "liza",
+    "score": 10,
+    "level_reached": 1,
+    "played_at": "2026-04-30"
+  },
+  {
+    "username": "ilya",
+    "score": 10,
+    "level_reached": 1,
+    "played_at": "2026-04-30"
+  }
+]

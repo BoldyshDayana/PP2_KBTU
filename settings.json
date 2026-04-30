@@ -1,0 +1,12 @@
+{
+  "snake_color": [
+    160,
+    30,
+    200
+  ],
+  "show_grid": true,
+  "sound": false,
+  "car_color": "green",
+  "difficulty": "normal",
+  "username": "dakonya"
+}
